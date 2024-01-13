@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap')
+body {
+
+  background
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+  background-color: black;
+}
+header {
+
+  background:url(Oran-22.webp) ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+background-position: 18%;
+  
+  color: black;
+  padding: 1px;
+  text-align: center;
+  transition: 0.8s;
+  cursor: pointer;
+  border-radius: 70px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  
+}
+header:hover {
+  background: url(conor3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 5%;
+  background-position: center ;
+  
+  border-radius: 200px
+  color: BLACK;
+  border-radius: 400px;
+  margin-top: 25px;
+  margin-left: 30px;
+  margin-right: 30px;
+  
+}
+.UFC {
+  width: 150px;
+  height: 50px;
+  padding-top: 1px;
+}
+section {
+  padding: 20px;
+ 
+}
+
+h1 {
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-text1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  background: transparent;
+  
+  border-radius: 15px;
+  box-shadow:  10px 5px 5px ;
+}
+.image-text2{
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px; 
+  background: black;
+  border-radius: 15px;
+  box-shadow:  10px 5px 5px ;
+  padding-left: ;
+}
+#stade{
+width: 1000px;
+border-radius: 40px;
+}
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* background: url(UFC-fighter-loses-court-case-over-tainted-multivitamin.jpg); */
+  background: transparent;
+  background-repeat: no-repeat;
+  background-position: 13%;
+  color: white;
+  margin-left: 40px;
+  
+  font-size: 23px;
+  /* box-shadow:  10px 5px 5px gray; */
+  /* border: double  #1111; */
+  border-radius: 15px;
+  cursor: pointer;
+  width: 60%;
+
+}
+
+img {
+  max-width: 40%;
+  height: auto;
+  
+}
+
+footer {
+  background-color: transparent;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: ;
+  background-repeat: no-repeat;
+  background-position: 7%;
+}
+
+footer img {
+  width: 300px;
+  height: auto;
+  border-radius: 15px; 
+}
+
+
+
+button {
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 160px;
+  border-radius: 10px;
+  background-color: red;
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+}
+
+button:hover{
+background: whitesmoke;
+}
+button a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.726);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  
+}
